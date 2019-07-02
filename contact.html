@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta class="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Contact Us - Evan L. Tripp CPA, Accounting &amp; Management</title>
+	<link rel='stylesheet' href='css/style.min.css' />
+</head>
+<body>
+	<!-- navbar -->
+	<div class="navbar">
+		<nav class="nav__mobile"></nav>
+		<div class="container">
+			<div class="navbar__inner">
+				<a href="index.html" class="navbar__logo">Evan L. Tripp CPA, Accounting &amp; Management</a>
+				<nav class="navbar__menu">
+					<ul>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#about">Who We Are</a></li>
+						<li><a href="#locations">Locations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				<div class="navbar__menu-mob"><a href="" id='toggle'><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" class=""></path></svg></a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Contact Form -->
+	<div class="auth">
+		<div class="container">
+			<div class="auth__inner">
+				<div class="auth__media">
+					<img src="./images/postal_card.svg">
+				</div>
+				<div class="auth__auth">
+					<h1 class="auth__title">We'd Love to Hear From You</h1>
+					<p>Use the form below to contact our office or give us a call. Our locations and contact information is available below.</p>
+					<form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+                <input type='text' name='name' placeholder="Full Name">
+                <input type='email' name='email' placeholder="Email Address">
+                <input type='text' name='phone' placeholder="Phone Number">
+                <textarea name='message' placeholder="How can we help you?" id='textarea'></textarea>
+                <div data-netlify-recaptcha="true"></div>
+                <input type='submit' class="button button__accent" value="Submit">
+            </form>	
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- Location Contact Information -->
+    <div id="locations" class="expanded landing__section">
+		<div class="container">
+            <div class="expanded__inner">
+				<div class="expanded__media">
+					<img src="./images/address_udes.svg" class="expanded__image">
+                </div>
+                <div class="expanded__content">
+					<h2 class="expanded__title">North Kansas City</h2>
+                    <p class="expanded__text" >1440 Iron Street North Kansas City, MO 64116-3606</p> 
+                    <p class="expanded__text">Phone: (816) 221-0042</p>
+                    <h4>Hours</h4>
+                    <p class="expanded__text">Mon-Fri | 9:00am - 5:00pm</p>
+					<h2 class="expanded__title">Excelsior Springs</h2>
+                    <p class="expanded__text">2001 W Jesse James Rd # 3, Excelsior Springs, MO 64024</p>
+                    <p class="expanded__text">Phone: (816) 630-2520</p>
+                    <h4>Hours</h4>
+                    <p class="expanded__text">Mon-Fri | 9:00am - 5:00pm</p>
+				</div>
+			</div>
+		</div>
+    </div>
+<script src='js/app.min.js'></script>
+</body>
+</html>
